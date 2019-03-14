@@ -1,0 +1,38 @@
+JDBC -> DB(mysql) 연결
+=> 사용시 마다 연결정보(Connection) 필요
+
+커넥션풀 : 디비와 연결된 연결정보(Conncection)를 미리
+생성하여 Pool에 저장한다. 필요시 마다 해당 풀에 접근하여 사용
+
+프로그램 설치 
+commons-collections-3.2.1.jar
+commons-dbcp-1.4.jar
+commons-pool-1.6.jar
+
+파일 설치(WEB-INF/lib 폴더에 복사)
+
+
+
+게시판  (board 테이블 ) 
+글번호 (num)
+글쓴이 (name)
+글제목 (subject)
+내용 (content)
+비밀번호 (pass)
+조회수 (readcount)
+답글 변수 (re_ref)
+답글 변수 (re_lev)
+답글 변수 (re_seq)
+날짜 (date);
+ip 주소 (ip)
+파일업로드 (file)
+
+
+
+
+
+
+
+
+
+
